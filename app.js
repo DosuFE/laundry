@@ -64,7 +64,7 @@ function initializeForm() {
             `Message: ${encodeURIComponent(message)}`;
 
         // WhatsApp URL (change country code if needed)
-        const whatsappUrl = `https://wa.me/2349126116913?text=${waMessage}`;
+        const whatsappUrl = `https://wa.me/2349053054831?text=${waMessage}`;
 
         window.open(whatsappUrl, '_blank');
         showNotification('Redirecting to WhatsApp...', 'success');
